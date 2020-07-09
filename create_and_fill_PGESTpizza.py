@@ -11,11 +11,11 @@ import database_creation as dc
 
 def main():
 
-    database = dc.Database('', 'root', 'Metalspirit77+')
+    database = dc.Database('', 'root', '########')
     database.create_the_database()
     database.disconnect()
 
-    database = dc.Database('PGESTpizza', 'root', 'Metalspirit77+')
+    database = dc.Database('PGESTpizza', 'root', '########')
     database.fill_tables()
     database.disconnect()
 
