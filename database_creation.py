@@ -3,7 +3,6 @@
 
 import mysql.connector as mc
 
-
 ###############################################################################
 
 """ We create the class Database for more flexibity. Thanks to that we are less
@@ -33,7 +32,7 @@ class Database():
         """ We create the database in this methode thanks to the file
         'script_database_aliment.sql' """
 
-        with open('script_database_aliment.sql', 'r') as sql:
+        with open('database_structure.sql', 'r') as sql:
             block = ""
             for line in sql:
                 if line[0] == "\n":
@@ -61,7 +60,7 @@ class Database():
 
         return
 
-    def show_saved_food(self):
+    def show_(self):
 
         """ This methode show all the substitutes saved by the client. """
 
