@@ -4,9 +4,6 @@
 import mysql.connector as mc
 
 
-
-
-
 ###############################################################################
 
 """ We create the class Database for more flexibity. Thanks to that we are less
